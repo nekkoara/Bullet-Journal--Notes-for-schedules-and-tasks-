@@ -1420,7 +1420,7 @@ footer {
     width: 30%;
   }
 
-  .tool-caption-box1 {
+  /* .tool-caption-box1 {
     margin-top: 120%;
     left: 6%;
   }
@@ -1438,6 +1438,13 @@ footer {
   .tool-caption-box4 {
     margin-top: 660%;
     left: 6%;
+  } */
+
+  .tool-caption-box1,
+  .tool-caption-box2,
+  .tool-caption-box3,
+  .tool-caption-box4 {
+    display: none;
   }
 
   .tool-note,
@@ -1582,7 +1589,7 @@ footer {
   }
 
   .process-top-box2 {
-    top: 110%;
+    top: 120%;
     left: 5%;
     height: 8%;
     width: 27%;
