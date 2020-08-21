@@ -1370,21 +1370,21 @@ footer {
   /* ーーーーーtool-spーーーーー */
 
   .tool-point-box {
-    margin-top: 340%;
+    margin-top: 345%;
     width: 85%;
     height: 130px;
   }
 
   .tool-point-box-plus {
-    margin-top: 385%;
+    margin-top: 390%;
   }
 
   .tool-point-caption {
-    margin-top: 345%;
+    margin-top: 350%;
   }
 
   .tool-point-caption-plus {
-    margin-top: 390%;
+    margin-top: 395%;
   }
 
   .tool-point-caption h2 {
@@ -1422,22 +1422,22 @@ footer {
 
   .tool-caption-box1 {
     margin-top: 120%;
-    left: 8%;
+    left: 6%;
   }
 
   .tool-caption-box2 {
-    margin-top: 280%;
-    left: 7%;
+    margin-top: 284%;
+    left: 6%;
   }
 
   .tool-caption-box3 {
-    margin-top: 490%;
-    left: 4.5%;
+    margin-top: 497%;
+    left: 6%;
   }
 
   .tool-caption-box4 {
-    margin-top: 650%;
-    left: 8%;
+    margin-top: 660%;
+    left: 6%;
   }
 
   .tool-note,
@@ -1568,7 +1568,7 @@ footer {
 
   .process-top-img1 {
     width: 80%;
-    top: 80%;
+    top: 85%;
     left: 10%;
   }
 
@@ -1577,12 +1577,12 @@ footer {
   }
 
   .process-top-box1 {
-    top: 73%;
+    top: 80%;
     height: 15%;
   }
 
   .process-top-box2 {
-    top: 98%;
+    top: 110%;
     left: 5%;
     height: 8%;
     width: 27%;
