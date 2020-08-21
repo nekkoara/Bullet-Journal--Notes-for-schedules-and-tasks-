@@ -13,12 +13,11 @@
 
 @font-face {
   font-family: "ヒラギノ丸";
-  src: url(font/ヒラギノ丸ゴProNW4.ttc);
+  src: url(font/MPLUSRounded1c-Regular.ttf);
 }
 
 body {
   background: #dfdfdf;
-  /* min-width: 700px; */
   font-family: "Hannotate SC", sans-serif;
   color: #736357;
   width: 100%;
@@ -277,7 +276,9 @@ header {
   opacity: 0.2;
   white-space: nowrap;
   writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
   text-orientation: sideways;
+  -webkit-text-orientation: sideways;
 }
 
 /* ーーーーーEXAMPLEーーーーー */
@@ -468,9 +469,7 @@ header {
   margin-top: 300px;
   background: #b09599;
   border-radius: 15px;
-  /* opacity: 0.2; */
   z-index: -2;
-  /* margin-top: 9%; */
 }
 
 .tool-point-box-plus {
@@ -818,7 +817,7 @@ footer {
 }*/
 
 .footer-text-sub {
-  font-size: 1px;
+  font-size: 10px;
   color: white;
   font-family: "ヒラギノ丸";
 }
@@ -1099,7 +1098,7 @@ footer {
 
 /* ーーーーーーーーレスポンシブ-spーーーーーーーー */
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .br-pc {
     display: none;
   }
@@ -1162,7 +1161,7 @@ footer {
 
   .header-sp-nav-list {
     width: 60%;
-    margin: 30% 15%;
+    margin: 20% 15%;
     list-style: none;
   }
 
@@ -1176,7 +1175,7 @@ footer {
   }
 
   .header-sp-nav-list li {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .header-sp-nav-list a {
@@ -1205,7 +1204,7 @@ footer {
 
   .header-sp-nav-title {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
   .header-sp-nav-title h2 {
@@ -1365,7 +1364,7 @@ footer {
   /* ーーーーーtool-spーーーーー */
 
   .tool-point-box {
-    margin-top: 335%;
+    margin-top: 340%;
     width: 85%;
     height: 130px;
   }
@@ -1521,7 +1520,7 @@ footer {
   }
 
   .about-caption p {
-    font-size: 0.4vw;
+    font-size: 10px;
     padding: 3% 0;
     line-height: normal;
   }
@@ -1563,7 +1562,7 @@ footer {
 
   .process-top-img1 {
     width: 80%;
-    top: 60%;
+    top: 75%;
     left: 10%;
   }
 
@@ -1572,12 +1571,12 @@ footer {
   }
 
   .process-top-box1 {
-    top: 53%;
+    top: 68%;
     height: 15%;
   }
 
   .process-top-box2 {
-    top: 78%;
+    top: 93%;
     left: 5%;
     height: 8%;
     width: 27%;
@@ -1663,7 +1662,7 @@ footer {
 
 /* ーーーーーiPadーーーーー */
 
-@media screen and (min-width: 501px) and (max-width: 1100px) {
+/* @media screen and (min-width: 501px) and (max-width: 1100px) {
   .br-pc {
     display: none;
   }
@@ -1677,4 +1676,4 @@ footer {
   .sp {
     display: block;
   }
-}
+} */
