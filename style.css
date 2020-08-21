@@ -488,7 +488,7 @@ header {
   right: 0;
   margin: auto;
   z-index: 15;
-  margin-top: 340px;
+  margin-top: 325px;
 }
 
 .tool-point-caption-plus {
@@ -1380,7 +1380,7 @@ footer {
   }
 
   .tool-point-caption {
-    margin-top: 340%;
+    margin-top: 345%;
   }
 
   .tool-point-caption-plus {
