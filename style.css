@@ -1350,13 +1350,13 @@ footer {
 
   .tatemoji-1 {
     top: 65%;
-    left: 64vw;
+    left: 60vw;
     opacity: 0.4;
   }
   _::-webkit-full-page-media,
   _:future,
   :root .tatemoji-1 {
-    left: 64vw;
+    left: 62vw;
   }
 
   .tatemoji-2 {
@@ -1372,6 +1372,20 @@ footer {
 
   .instagram-list li {
     padding-bottom: 50px;
+  }
+
+  .instagram-media {
+    background: #fff;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+    margin: auto;
+    max-width: 300px;
+    /* min-width: 326px; */
+    padding: 0;
+    width: 99.375%;
+    width: -webkit-calc(100% - 2px);
+    width: calc(100% - 2px);
   }
 
   .example-box {
