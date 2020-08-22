@@ -268,6 +268,12 @@ header {
   z-index: -3;
 }
 
+_::-webkit-full-page-media,
+_:future,
+:root .tatemoji-1 {
+  left: 74vw;
+}
+
 .tatemoji-2 {
   position: absolute;
   top: 350%;
@@ -1344,6 +1350,7 @@ footer {
 
   .tatemoji-1 {
     top: 65%;
+    left: 64vw;
     opacity: 0.4;
   }
 
