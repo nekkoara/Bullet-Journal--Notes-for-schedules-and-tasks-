@@ -1691,6 +1691,10 @@ footer {
     top: 85%;
     text-shadow: 0 0 20px white, 0 0 20px white, 0 0 20px white, 0 0 20px white;
   }
+
+  iframe {
+    margin: auto !important;
+  }
 }
 
 /* ーーーーーiPadーーーーー */
