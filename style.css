@@ -264,14 +264,10 @@ header {
 .tatemoji-1 {
   position: absolute;
   top: 120%;
-  right: 0;
+  /* right: 0; */
   z-index: -3;
-}
-
-_::-webkit-full-page-media,
-_:future,
-:root .tatemoji-1 {
-  left: 74vw;
+  float: right;
+  width: 100vw;
 }
 
 .tatemoji-2 {
@@ -291,6 +287,7 @@ _:future,
   -webkit-writing-mode: vertical-rl;
   text-orientation: sideways;
   -webkit-text-orientation: sideways;
+  float: right;
 }
 
 /* ーーーーーEXAMPLEーーーーー */
@@ -1350,13 +1347,10 @@ footer {
 
   .tatemoji-1 {
     top: 65%;
-    left: 60vw;
+    /* left: 60vw; */
     opacity: 0.4;
-  }
-  _::-webkit-full-page-media,
-  _:future,
-  :root .tatemoji-1 {
-    left: 62vw;
+    float: right;
+    width: 100vw;
   }
 
   .tatemoji-2 {
